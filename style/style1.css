@@ -1,0 +1,312 @@
+body { 
+    background-color: #081827; 
+    color: white; 
+}
+
+#navnav {
+    background-color: #0b2032; 
+    border-bottom: 2px solid #43c6ac; 
+}
+
+.navbar-brand:hover {
+    color: #43c6ac; 
+}
+
+.banner {
+    background: linear-gradient(rgba(5,20,35,0.65), rgba(5,20,35,0.8)), url("/Flood_PBL/media/Storm-Flooded\ Town\ Beneath\ Misty\ Mountains.png") center; 
+}
+
+#imgoat {
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.banner span, .section-title {
+    color: #43c6ac; 
+}
+
+.banner p, .section-text {
+    color: #c5d0d9; 
+}
+
+.banner-desc {
+    max-width: 700px;
+}
+
+.main-btn {
+    background-color: #43c6ac; 
+    color: #081827; 
+    transition: 0.3s; 
+}
+    
+.main-btn:hover {
+    background-color: white; 
+    color: #081827; 
+    transform: translateY(-3px); 
+}
+
+.feature-card {
+    background-color: #10283a; 
+    border: 1px solid #244456; 
+    transition: 0.3s; 
+}
+
+.feature-card:hover {
+    transform: translateY(-5px); 
+    border-color: #43c6ac;
+}
+
+.section-img {
+    width: 100%; 
+    height: 220px; 
+    object-fit: cover; 
+}
+
+
+#consequences {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    color: #43c6ac;
+}
+
+.section-text {
+    color: #c2ced8;
+    line-height: 1.7;
+}
+
+
+
+#building,
+#rail {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    transition: 0.4s;
+}
+
+#disease {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    transition: 0.4s;
+}
+.consequence-img:hover {
+    transform: scale(1.03);
+}
+
+
+.consequence-table {
+    --bs-table-bg: #102438;
+    --bs-table-color: #e1e8ef;
+    --bs-table-border-color: #30475a;
+
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.consequence-table th {
+    color: #43c6ac;
+    font-weight: 600;
+}
+
+.consequence-table td,
+.consequence-table th {
+    padding: 14px;
+    vertical-align: middle;
+}
+
+
+.solution-btn {
+    background-color: #43c6ac;
+    color: #081827;
+    font-weight: 600;
+
+    border: 1px solid #43c6ac;
+    padding: 10px 22px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.solution-btn:hover {
+    background-color: transparent;
+    color: #43c6ac;
+    border-color: #43c6ac;
+    transform: translateY(-2px);
+}
+
+
+.solution-modal {
+    background-color: #0b2032;
+    color: white;
+
+    border: 1px solid #43c6ac;
+    border-radius: 15px;
+}
+
+.solution-modal .modal-header {
+    border-bottom: 1px solid #43c6ac;
+}
+
+.solution-modal .modal-title {
+    color: #43c6ac;
+    font-weight: bold;
+}
+
+.solution-modal .modal-footer {
+    border-top: 1px solid #243b4d;
+}
+
+.solution-modal .btn-close {
+    opacity: 1;
+}
+
+
+.solution-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+
+    padding: 15px;
+    margin-bottom: 12px;
+
+    background-color: #122b40;
+
+    border: 1px solid #243b4d;
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.solution-item:hover {
+    border-color: #43c6ac;
+    transform: translateX(4px);
+}
+
+.solution-item i {
+    color: #43c6ac;
+    font-size: 25px;
+    min-width: 28px;
+}
+
+.solution-item h6 {
+    color: #43c6ac;
+    font-weight: bold;
+
+    margin-bottom: 6px;
+}
+
+.solution-item p {
+    color: #c2ced8;
+
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 767px) {
+
+    #building,
+    #disease,
+    #rail {
+        height: 280px;
+    }
+    .consequence-table td,
+    .consequence-table th {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .solution-btn {
+        width: 100%;
+    }
+    .solution-modal .modal-title {
+        font-size: 17px;
+    }
+
+}
+
+#hihi {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Modal Design */
+.modal-content {
+    border: 1px solid #43c6ac;
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #43c6ac;
+}
+
+.modal-footer {
+    border-top: 1px solid #43c6ac;
+}
+
+.modal-title {
+    color: #43c6ac;
+}
+
+.modal-body ul {
+    padding-left: 20px;
+}
+
+.modal-body li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* View Solutions Button */
+.btn-outline-success {
+    border-color: #43c6ac;
+    color: #43c6ac;
+}
+
+.btn-outline-success:hover {
+    background-color: #43c6ac;
+    border-color: #43c6ac;
+    color: #081827;
+}
+
+.ready-section {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    background: #102638;
+    border-top: 2px solid #43c6ac;
+    border-bottom: 2px solid #43c6ac;
+}
+
+.link-green {
+    color: #43c6ac;
+}
+
+footer {
+    border-top: 2px solid #43c6ac;
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+    background: #081827;
+}
+
+footer a {
+    color: #c5d0d9; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    color: #43c6ac; 
+}
+
+@media (max-width: 767px) {
+    .banner { min-height: 420px; } 
+}

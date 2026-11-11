@@ -1,0 +1,258 @@
+body {
+    background-color: #081827;
+    color: white;
+}
+ 
+#navnav {
+    background-color: #0b2032;
+    border-bottom: 2px solid #43c6ac;
+}
+ 
+.navbar-brand:hover {
+    color: #43c6ac;
+}
+ 
+#prepare {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/Flood_PBL/media/fortext.png") center;
+}
+ 
+.banner span, .section-title {
+    color: #43c6ac;
+}
+ 
+.banner p, .section-text {
+    color: #c5d0d9;
+}
+ 
+.banner-desc {
+    max-width: 700px;
+}
+
+
+/* Contact Us Banner */
+.contact-banner {
+    background: #081827;
+}
+
+.contact-banner h1 {
+    color: white;
+}
+
+.contact-banner h1 span {
+    color: #43c6ac;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #081827;
+}
+
+/* Contact Information */
+.contact-info {
+    background: #102638;
+    border: 1px solid #244456;
+    border-radius: 15px;
+}
+
+.contact-info h2 {
+    color: white;
+}
+
+.contact-info h2 span {
+    color: #43c6ac;
+}
+
+.contact-info h5 {
+    color: white;
+    font-size: 17px;
+}
+
+.contact-item i {
+    color: #43c6ac;
+    font-size: 25px;
+}
+
+/* Social Icons */
+.contact-social a {
+    color: #43c6ac;
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.contact-social a:hover {
+    color: white;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #102638;
+    border: 1px solid #244456;
+    border-radius: 15px;
+}
+
+.contact-form h2 {
+    color: white;
+}
+
+.contact-form h2 span {
+    color: #43c6ac;
+}
+
+.contact-form .form-label {
+    color: white;
+}
+
+.contact-form .form-control {
+    background: #081827;
+    color: white;
+    border: 1px solid #244456;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #8296a5;
+}
+
+.contact-form .form-control:focus {
+    background: #081827;
+    color: white;
+    border-color: #43c6ac;
+    box-shadow: 0 0 0 0.2rem rgba(67, 198, 172, 0.15);
+}
+
+/* Send Button */
+.contact-btn {
+    background: #43c6ac;
+    color: #081827;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #35a993;
+    color: #081827;
+}
+
+@media (max-width: 767px) {
+    .contact-banner {
+        padding: 50px 20px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 25px ;
+    }
+}
+
+.main-btn {
+    background-color: #43c6ac;
+    color: #081827;
+    transition: 0.3s;
+}
+   
+.main-btn:hover {
+    background-color: white;
+    color: #081827;
+    transform: translateY(-3px);
+}
+ 
+.feature-card {
+    background-color: #10283a;
+    border: 1px solid #244456;
+    transition: 0.3s;
+}
+ 
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #43c6ac;
+}
+ 
+.section-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+ 
+.custom-bridge-img {
+    height: 350px;
+    object-fit: cover;
+}
+ 
+.ready-section {
+    background-color: #10283a;
+    border-top: 2px solid #43c6ac;
+    border-bottom: 2px solid #43c6ac;
+}
+ 
+.link-green {
+    color: #43c6ac;
+}
+
+.faq-section {
+    background-color: #081827;
+}
+
+.faq-section h2 span {
+    color: #43c6ac;
+}
+
+.accordion-item {
+    background-color: #10283b;
+    border: 1px solid #29465b;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: #10283b;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #16364b;
+    color: #43c6ac;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: #43c6ac;
+}
+
+.accordion-body {
+    background-color: #0b2032;
+    color: #c5d1dc;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+footer {
+    border-top: 2px solid #43c6ac;
+}
+
+footer a {
+    color: #c5d0d9;
+    text-decoration: none;
+}
+ 
+footer a:hover {
+    color: #43c6ac;
+}
+ 
+@media (max-width: 767px) {
+    .banner { min-height: 420px; }
+}
+ 

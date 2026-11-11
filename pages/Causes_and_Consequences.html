@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINYX | Causes & Consequences of Floods</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <link rel="icon" href="../media/logo.png">
+    <link rel="stylesheet" href="../style/style1.css">
+</head>
+
+<body id="hiimbody">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navnav">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="../index.html">
+            <img src="../media/logo.png" alt="INFINYX logo" width="45" height="45" class="me-2">INFINYX
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="Causes_and_Consequences.html">Causes and Consequences</a></li>
+                <li class="nav-item"><a class="nav-link" href="Prepare.html">Prepare</a></li>
+                <li class="nav-item"><a class="nav-link" href="About_Us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact_Us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Banner -->
+<div class="banner d-flex align-items-center text-center py-5">
+    <div class="container">
+        <h1 class="display-3 fw-bold mb-4" data-aos="fade-up">Causes & <span>Consequences</span></h1>
+        <p class="fs-5 mx-auto mb-4 banner-desc section-text" data-aos="fade-up" data-aos-delay="150">
+            Explore why floods happen, examine their long-term environmental and social impacts, and discover effective prevention solutions.
+        </p>
+    </div>
+</div>
+
+<!-- Intro Section -->
+<section class="container py-5">
+    <div class="row align-items-center g-4">
+        <div class="col-md-7" data-aos="fade-right">
+            <h2 class="section-title fw-bold mb-3">Understanding Flood Dynamics</h2>
+            <p class="section-text lh-lg">Flooding is one of the most widespread and damaging natural hazards. It occurs when water overflows onto land that is normally dry, turning neighborhoods and roads into dangerous streams.</p>
+            <p class="section-text lh-lg">By learning the specific triggers behind flooding and its long-lasting consequences, communities can design better prevention strategies and minimize future disasters.</p>
+            <p class="section-text lh-lg">
+                By learning about flood risks and preparing early, we can make better decisions and help protect the people around us.
+            </p>
+
+            <p class="section-text">
+                Ref: <a href="https://www.ready.gov/floods" target="_blank">Ready.gov – Floods</a>
+            </p>
+        </div>
+
+        <div class="col-md-5" data-aos="fade-left">
+            <img src="../media/Image.jpg" class="img-fluid rounded-3 shadow-lg w-100" alt="Flooding in community" id="imgoat">
+        </div>
+    </div>
+</section>
+
+<!-- Causes Section -->
+<section class="ready-section py-5">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title fw-bold mb-3">What Causes Floods?</h2>
+            <p class="section-text">Floods are driven by extreme weather phenomena and human-altered landscapes. Click any card to explore multimedia breakdowns.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4" data-aos="flip-up">
+                <div class="feature-card rounded-3 p-4 text-center h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <i class="bi bi-cloud-rain-heavy display-4 link-green mb-3 d-block"></i>
+                        <h4 class="section-title fw-bold mb-2">Extreme Rainfall</h4>
+                        <p class="section-text fs-6">Heavy or continuous rainfall overwhelms natural soil absorption limits and municipal drainage systems.</p>
+                    </div>
+                    <button class="main-btn btn fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#rainfallModal">
+                        Learn More <i class="bi bi-play-circle ms-1"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="flip-up" data-aos-delay="100">
+                <div class="feature-card rounded-3 p-4 text-center h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <i class="bi bi-water display-4 link-green mb-3 d-block"></i>
+                        <h4 class="section-title fw-bold mb-2">River & Coastal Overflows</h4>
+                        <p class="section-text fs-6">Rain or melting snow causes rivers to rise above their banks, while ocean storms push tides inland.</p>
+                    </div>
+                    <button class="main-btn btn fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#riverModal">
+                        Learn More <i class="bi bi-play-circle ms-1"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="flip-up" data-aos-delay="200">
+                <div class="feature-card rounded-3 p-4 text-center h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <i class="bi bi-building display-4 link-green mb-3 d-block"></i>
+                        <h4 class="section-title fw-bold mb-2">Urbanization & Concrete</h4>
+                        <p class="section-text fs-6">Roads and buildings stop rainwater from soaking into the earth, sending huge amounts of runoff into drains.</p>
+                    </div>
+                    <button class="main-btn btn fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#urbanModal">
+                        Learn More <i class="bi bi-play-circle ms-1"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="flip-up" data-aos-delay="300">
+                <div class="feature-card rounded-3 p-4 text-center h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <i class="bi bi-tree display-4 link-green mb-3 d-block"></i>
+                        <h4 class="section-title fw-bold mb-2">Deforestation</h4>
+                        <p class="section-text fs-6">Removing trees eliminates roots that slow down water runoff, letting floodwaters surge rapidly.</p>
+                    </div>
+                    <button class="main-btn btn fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#forestModal">
+                        Learn More <i class="bi bi-play-circle ms-1"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="flip-up" data-aos-delay="400">
+                <div class="feature-card rounded-3 p-4 text-center h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <i class="bi bi-exclamation-triangle display-4 link-green mb-3 d-block"></i>
+                        <h4 class="section-title fw-bold mb-2">Dam and Levee Failures</h4>
+                        <p class="section-text fs-6">Structural damage or heavy water pressure can break dams and flood barriers unexpectedly.</p>
+                    </div>
+                    <button class="main-btn btn fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#damModal">
+                        Learn More <i class="bi bi-play-circle ms-1"></i>
+                    </button>
+                </div>
+
+                <button type="button" class="btn btn-outline-info rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#referencesModal"><i class="bi bi-book me-2"></i> View References</button>
+            </div>
+            
+    </div>
+</section>
+
+<!-- Consequences of Flooding -->
+<section class="container py-5" id="consequences">
+
+    <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title fw-bold">Consequences of Flooding</h2>
+        <p class="section-text">
+            The severe impacts of floods disrupt human lives, economic stability,
+            and fragile ecosystems. Explore the consequences and discover
+            practical solutions below.
+        </p>
+    </div>
+
+    <!-- Property & Infrastructure Destruction -->
+    <div class="row align-items-center mb-5 g-4" data-aos="fade-right">
+        <div class="col-md-5">
+            <img src="../media/damagedbuilding.jpg" class="img-fluid rounded-3 shadow consequence-img" alt="Flood damage to buildings" id="building">
+        </div>
+
+        <div class="col-md-7">
+            <h4 class="section-title fw-bold mb-3">
+                <i class="bi bi-house-x me-2"></i>
+                Severe Property & Infrastructure Destruction
+            </h4>
+
+            <p class="section-text">
+                Floodwaters cause extreme kinetic and hydrostatic forces capable of damaging heavy infrastructure.
+            </p>
+
+            <table class="table table-dark table-bordered border-secondary consequence-table">
+                <tbody>
+                    <tr>
+                        <th>Damage to Buildings</th>
+                        <td>Floodwater weakens building foundations, damages walls, and may cause buildings to collapse.</td>
+                    </tr>
+                    <tr>
+                        <th>Road and Bridge Destruction</th>
+                        <td>Strong flood currents can damage roads, destroy bridges, and make transportation difficult.</td>
+                    </tr>
+                    <tr>
+                        <th>Electricity Disruption</th>
+                        <td>Floodwater can damage electrical systems, causing power outages in homes and communities.</td>
+                    </tr>
+                    <tr>
+                        <th>Water Supply Contamination</th>
+                        <td>Flooding can damage water supply systems and contaminate drinking water with sewage and pollutants.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="btn solution-btn mt-3" data-bs-toggle="modal" data-bs-target="#buildingModal">
+                <i class="bi bi-shield-check me-2"></i>View Solutions
+            </button>
+        </div>
+    </div>
+
+    <!-- Health Risks -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse g-4" data-aos="fade-left">
+        <div class="col-md-5">
+            <img src="../media/disease.jpg" class="img-fluid rounded-3 shadow consequence-img" alt="Health risks caused by contaminated floodwater" id="disease">
+        </div>
+
+        <div class="col-md-7">
+            <h4 class="section-title fw-bold mb-3">
+                <i class="bi bi-activity me-2"></i>
+                Health Risks and Disease
+            </h4>
+
+            <p class="section-text">
+                Flooding creates hazardous sanitary conditions and increases the risk of disease outbreaks.
+            </p>
+
+            <table class="table table-dark table-bordered border-secondary consequence-table">
+                <tbody>
+                    <tr>
+                        <th>Diarrhea and Vomiting</th>
+                        <td>Drinking contaminated water can cause stomach infections, diarrhea, and vomiting.</td>
+                    </tr>
+                    <tr>
+                        <th>Dengue Fever and Malaria</th>
+                        <td>Mosquitoes breeding in stagnant floodwater can spread diseases that cause fever and other serious symptoms.</td>
+                    </tr>
+                    <tr>
+                        <th>Leptospirosis</th>
+                        <td>Exposure to contaminated floodwater can cause fever, muscle pain, and in severe cases, kidney or liver damage.</td>
+                    </tr>
+                    <tr>
+                        <th>Electric Shock</th>
+                        <td>Contact with damaged electrical wires or equipment in floodwater can cause serious injury.</td>
+                    </tr>
+                    <tr>
+                        <th>Respiratory Problems</th>
+                        <td>Mold in flooded buildings can trigger asthma, allergies, and breathing difficulties.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="btn solution-btn mt-3" data-bs-toggle="modal" data-bs-target="#healthModal">
+                <i class="bi bi-heart-pulse me-2"></i>View Solutions
+            </button>
+        </div>
+    </div>
+
+    <!-- Displacement & Emotional Strain -->
+    <div class="row align-items-center mb-5 g-4" data-aos="fade-right">
+        <div class="col-md-5">
+            <img src="../media/railflood.jpg" class="img-fluid rounded-3 shadow consequence-img" alt="Community affected by flooding" id="rail">
+        </div>
+
+        <div class="col-md-7">
+            <h4 class="section-title fw-bold mb-3">
+                <i class="bi bi-people me-2"></i>
+                Displacement & Emotional Strain
+            </h4>
+
+            <p class="section-text">
+                Flooding can force families to leave their homes and create long-term social and emotional challenges.
+            </p>
+
+            <table class="table table-dark table-bordered border-secondary consequence-table">
+                <tbody>
+                    <tr>
+                        <th>Homelessness</th>
+                        <td>Families may lose their homes and be forced to live in temporary shelters or with relatives.</td>
+                    </tr>
+                    <tr>
+                        <th>Anxiety and Stress</th>
+                        <td>Losing homes and belongings can cause fear, worry, and emotional distress.</td>
+                    </tr>
+                    <tr>
+                        <th>Social Isolation</th>
+                        <td>Flooded schools can interrupt lessons, delay education, and prevent students from attending classes.</td>
+                    </tr>
+                    <tr>
+                        <th>Emotional Challenges</th>
+                        <td>Experiencing major losses and uncertainty can negatively affect a person's mental well-being.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="btn solution-btn mt-3" data-bs-toggle="modal" data-bs-target="#displacementModal">
+                <i class="bi bi-house-heart me-2"></i>View Solutions
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- BUILDING SOLUTIONS MODAL -->
+<div class="modal fade" id="buildingModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content solution-modal">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="bi bi-house-check me-2"></i>Solutions for Infrastructure Damage</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="solution-item">
+                    <i class="bi bi-building-check"></i>
+                    <div>
+                        <h6>Flood-Resistant Buildings</h6>
+                        <p>Construct buildings on elevated foundations and use flood-resistant materials to reduce damage.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-cone-striped"></i>
+                    <div>
+                        <h6>Protect Roads and Bridges</h6>
+                        <p>Improve drainage systems and strengthen bridges to withstand floodwater and strong currents.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-lightning-charge"></i>
+                    <div>
+                        <h6>Protect Electrical Systems</h6>
+                        <p>Install electrical equipment above expected flood levels and switch off electricity when flooding threatens, if it is safe to do so.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-droplet"></i>
+                    <div>
+                        <h6>Keep Water Supplies Safe</h6>
+                        <p>Protect wells and water tanks from contamination and use safe drinking water during floods.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn solution-btn" data-bs-dismiss="modal">Got It</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- HEALTH SOLUTIONS MODAL -->
+<div class="modal fade" id="healthModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content solution-modal">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="bi bi-heart-pulse me-2"></i>Solutions for Health Risks</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="solution-item">
+                    <i class="bi bi-cup-straw"></i>
+                    <div>
+                        <h6>Drink Safe Water</h6>
+                        <p>Use bottled, boiled, or properly treated water to reduce the risk of waterborne diseases.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-bug"></i>
+                    <div>
+                        <h6>Prevent Mosquito Breeding</h6>
+                        <p>Remove standing water from containers and use mosquito nets or repellents.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-shield-plus"></i>
+                    <div>
+                        <h6>Avoid Contaminated Floodwater</h6>
+                        <p>Stay away from floodwater whenever possible and wash exposed skin with clean water and soap.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-lightning"></i>
+                    <div>
+                        <h6>Stay Away from Electrical Hazards</h6>
+                        <p>Never touch fallen power lines or electrical equipment that has been exposed to floodwater.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-house"></i>
+                    <div>
+                        <h6>Prevent Mold Growth</h6>
+                        <p>Dry flooded buildings as soon as it is safe and remove damaged materials that cannot be cleaned.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn solution-btn" data-bs-dismiss="modal">Got It</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DISPLACEMENT SOLUTIONS MODAL -->
+<div class="modal fade" id="displacementModal" >
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content solution-modal">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="bi bi-people me-2"></i>Solutions for Displacement</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="solution-item">
+                    <i class="bi bi-house-heart"></i>
+                    <div>
+                        <h6>Prepare Emergency Shelters</h6>
+                        <p>Identify safe evacuation centers and prepare temporary shelters for families affected by floods.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-bag-check"></i>
+                    <div>
+                        <h6>Prepare an Emergency Kit</h6>
+                        <p>Keep important documents, food, water, medicine, and essential supplies ready for evacuation.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-chat-heart"></i>
+                    <div>
+                        <h6>Provide Emotional Support</h6>
+                        <p>Encourage families to support one another and seek help from trusted people when feeling overwhelmed.</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <i class="bi bi-book"></i>
+                    <div>
+                        <h6>Continue Education</h6>
+                        <p>Provide temporary learning spaces and educational resources for students affected by flooding.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn solution-btn" data-bs-dismiss="modal">Got It</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Solutions Section -->
+<section class="ready-section py-5 w-100">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title fw-bold mb-3">How Can We Reduce Flood Risks?</h2>
+            <p class="section-text">Proactive civil engineering and community actions lower disaster risks. Click any strategy to view videos and detailed technical breakdowns.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="feature-card rounded-3 p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="section-title fw-bold mb-2"><i class="bi bi-tools me-2"></i>1. Modernized Drainage</h5>
+                        <p class="section-text small">Expand storm sewers and regularly clean gutters to carry away intense rainwater fast.</p>
+                    </div>
+                    <button class="main-btn btn btn-sm fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#solutionModal1">Explore Solution <i class="bi bi-arrow-right-circle ms-1"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                <div class="feature-card rounded-3 p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="section-title fw-bold mb-2"><i class="bi bi-tree-fill me-2"></i>2. Green Infrastructure</h5>
+                        <p class="section-text small">Construct urban parks, wetlands, and soil pockets that absorb rainwater naturally.</p>
+                    </div>
+                    <button class="main-btn btn btn-sm fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#solutionModal2">Explore Solution <i class="bi bi-arrow-right-circle ms-1"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                <div class="feature-card rounded-3 p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="section-title fw-bold mb-2"><i class="bi bi-shield-check me-2"></i>3. Flood Defenses</h5>
+                        <p class="section-text small">Build reinforced seawalls and river levees to block rising floodwaters from urban zones.</p>
+                    </div>
+                    <button class="main-btn btn btn-sm fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#solutionModal3">Explore Solution <i class="bi bi-arrow-right-circle ms-1"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="feature-card rounded-3 p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="section-title fw-bold mb-2"><i class="bi bi-bell me-2"></i>4. Early Warnings</h5>
+                        <p class="section-text small">Deploy weather alerts and automated broadcast notifications for immediate evacuation readiness.</p>
+                    </div>
+                    <button class="main-btn btn btn-sm fw-bold border-0 mt-3" data-bs-toggle="modal" data-bs-target="#solutionModal4">Explore Solution <i class="bi bi-arrow-right-circle ms-1"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CAUSES MODALS -->
+<!-- Modal 1: Extreme Rainfall -->
+<div class="modal fade" id="rainfallModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-cloud-rain-heavy me-2"></i>Extreme Rainfall & Atmospheric Rivers</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <img src="../media/extremerainfall.jpg" class="img-fluid rounded-3 shadow" alt="Rainfall impact">
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="link-green fw-bold">Deep Dive Analysis:</h6>
+                        <p class="section-text small">Extreme rainfall occurs when storm systems release large amounts of water over short periods. Ground saturation happens rapidly. Once the soil cannot absorb more water, excess rain flows across the surface and may flood lower areas.</p>
+                        <h6 class="link-green fw-bold">Mitigation & Safety Actions:</h6>
+                        <ul class="section-text small ps-3">
+                            <li>Maintain storm drains, street gutters, and downspouts free of debris.</li>
+                            <li>Use rain barrels to collect rooftop runoff where appropriate.</li>
+                            <li>Follow official weather alerts.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/43M5mZuzHF8" title="Extreme Heavy Rainfall & Flooding" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2: River & Coastal Overflows -->
+<div class="modal fade" id="riverModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-water me-2"></i>River Overflow & Coastal Storm Surges</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <img src="../media/Floodwaters Raging Beneath the Bridge.png" class="img-fluid rounded-3 shadow" alt="River overflow">
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="link-green fw-bold">Deep Dive Analysis:</h6>
+                        <p class="section-text small">River floods happen when heavy rainfall causes rivers to rise above their banks. Coastal storm surges occur when strong storms push seawater onto normally dry land.</p>
+                        <h6 class="link-green fw-bold">Preventative Measures:</h6>
+                        <ul class="section-text small ps-3">
+                            <li>Construct and maintain flood walls and levees in suitable high-risk areas.</li>
+                            <li>Limit construction in low-lying floodplains.</li>
+                            <li>Restore riverbank vegetation to help protect soil.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/2GgUn2QTJtE" title="River Overflow and Coastal Flooding" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3: Urbanization -->
+<div class="modal fade" id="urbanModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-building me-2"></i>Urbanization & Impervious Surfaces</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <img src="../media/Flooded Neighborhood Street with Silver Van.png" class="img-fluid rounded-3 shadow" alt="Urban flood">
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="link-green fw-bold">Deep Dive Analysis:</h6>
+                        <p class="section-text small">As natural soil and green spaces are replaced with concrete and asphalt, less rainwater can soak into the ground. Water flows across these hard surfaces, potentially overwhelming drainage systems.</p>
+                        <h6 class="link-green fw-bold">Urban Engineering Solutions:</h6>
+                        <ul class="section-text small ps-3">
+                            <li>Use permeable pavement in suitable areas.</li>
+                            <li>Include rooftop gardens and rain gardens in city planning.</li>
+                            <li>Improve stormwater storage and drainage systems.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/fKnAJCSGSdk" title="Urban Flooding and Permeable Surfaces" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4: Deforestation -->
+<div class="modal fade" id="forestModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-tree me-2"></i>Deforestation & Ecosystem Degradation</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <img src="../media/deforestation2.jpg" class="img-fluid rounded-3 shadow" alt="Deforestation impact">
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="link-green fw-bold">Deep Dive Analysis:</h6>
+                        <p class="section-text small">Trees and vegetation help absorb rainfall and slow surface runoff. Removing forests can expose soil to erosion and increase the amount of water flowing into rivers.</p>
+                        <h6 class="link-green fw-bold">Ecological Solutions:</h6>
+                        <ul class="section-text small ps-3">
+                            <li>Support reforestation and tree planting.</li>
+                            <li>Protect forests and reduce unnecessary logging.</li>
+                            <li>Use sustainable land management techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/QIkUg_GXszU" title="Deforestation and Flooding Risk" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 5: Dam Failures -->
+<div class="modal fade" id="damModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-exclamation-triangle me-2"></i>Dam & Infrastructure Breach</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <img src="../media/damandlevee.jpg" class="img-fluid rounded-3 shadow" alt="Dam failure">
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="link-green fw-bold">Deep Dive Analysis:</h6>
+                        <p class="section-text small">Dams, spillways, or levees can fail because of poor maintenance, structural damage, or water levels exceeding their capacity. This can release large amounts of water and cause serious downstream flooding.</p>
+                        <h6 class="link-green fw-bold">Safety Protocols:</h6>
+                        <ul class="section-text small ps-3">
+                            <li>Conduct routine inspections of water barriers.</li>
+                            <li>Maintain and improve flood-control infrastructure.</li>
+                            <li>Organize community evacuation drills for at-risk areas.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/EzMX_cFDvO8" title="Dam Failures and Flood Risk" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOLUTION MODALS -->
+
+<!-- Solution Modal 1: Drainage -->
+<div class="modal fade" id="solutionModal1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-tools me-2"></i>Modernized Drainage & Stormwater Systems</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="section-text">Upgrading drainage networks helps redirect water away from densely populated areas during heavy rainfall.</p>
+                <ul class="section-text small ps-3">
+                    <li><strong>High-Capacity Channels:</strong> Improve drainage capacity to reduce street flooding.</li>
+                    <li><strong>Regular Drain Cleaning:</strong> Remove debris that can block water flow.</li>
+                    <li><strong>Water Storage:</strong> Use suitable storage areas to temporarily hold excess rainwater.</li>
+                </ul>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/BH6wO25IAZg" title="Modern Urban Drainage Solutions" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Solution Modal 2: Green Infrastructure -->
+<div class="modal fade" id="solutionModal2">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-tree-fill me-2"></i>Sponge Cities & Green Infrastructure</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="section-text">Green infrastructure uses natural landscapes to absorb, store, and filter rainwater.</p>
+                <ul class="section-text small ps-3">
+                    <li><strong>Rain Gardens:</strong> Vegetated areas absorb surface runoff.</li>
+                    <li><strong>Permeable Pavement:</strong> Allows rainwater to soak into the ground.</li>
+                    <li><strong>Wetland Restoration:</strong> Natural wetlands help store excess water.</li>
+                </ul>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/yRUTrsy-7PY" title="Sponge Cities Explained" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Solution Modal 3: Flood Defenses -->
+<div class="modal fade" id="solutionModal3">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-shield-check me-2"></i>Civil Defenses: Seawalls & Barriers</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="section-text">Flood barriers help protect vulnerable areas from rising water levels.</p>
+                <ul class="section-text small ps-3">
+                    <li><strong>Flood Barriers:</strong> Help prevent water from entering vulnerable areas.</li>
+                    <li><strong>Levees & Dikes:</strong> Help contain river water within its channel.</li>
+                    <li><strong>Pumping Stations:</strong> Move excess water away from low-lying areas.</li>
+                </ul>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/nf-Yy3EuZi0" title="Engineered Flood Protection Systems" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Solution Modal 4: Early Warnings -->
+<div class="modal fade" id="solutionModal4">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content feature-card border border-secondary text-white">
+            <div class="modal-header border-bottom border-secondary">
+                <h5 class="modal-title section-title fw-bold"><i class="bi bi-bell me-2"></i>Early Warning Systems & Monitoring</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="section-text">Timely alerts give communities more time to prepare and evacuate safely.</p>
+                <ul class="section-text small ps-3">
+                    <li><strong>Weather Monitoring:</strong> Tracks rainfall and approaching storms.</li>
+                    <li><strong>River Level Sensors:</strong> Monitor rising river levels.</li>
+                    <li><strong>Emergency Alerts:</strong> Share warnings and evacuation instructions with communities.</li>
+                </ul>
+                <div class="ratio ratio-16x9 rounded overflow-hidden mt-3">
+                    <iframe src="https://www.youtube.com/embed/a8it-ZgS6Ew" title="Flood Early Warning Systems" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="modal-footer border-top border-secondary">
+                <button class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Call to Action -->
+<section class="container py-5 text-center" data-aos="fade-up">
+    <h2 class="section-title fw-bold mb-3">Ready to Protect Yourself?</h2>
+    <p class="section-text fs-5 mb-4">Now that you understand the causes and consequences of floods, learn how to prepare before one happens.</p>
+    <a href="Prepare.html" class="main-btn btn fw-bold px-4 py-3 border-0">
+        Learn How to Prepare <i class="bi bi-arrow-right"></i>
+    </a>
+</section>
+
+<!-- Footer -->
+<footer class="py-4">
+    <div class="container text-center">
+        <img src="../media/logo.png" alt="INFINYX logo" width="55" height="55" class="mb-3">
+
+        <h4 class="fw-bold">INFINYX | Flood Safety</h4>
+        <p class="section-text">Be ready before the flood.</p>
+
+        <div class="d-flex flex-wrap justify-content-center gap-3 my-3">
+            <a href="../index.html">Home</a>
+            <a href="Causes_and_Consequences.html">Causes</a>
+            <a href="Prepare.html">Prepare</a>
+            <a href="About_Us.html">About Us</a>
+            <a href="Contact_Us.html">Contact</a>
+        </div>
+
+        <div class="d-flex justify-content-center gap-4 my-3">
+            <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+            <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+            <a href="#"><i class="bi bi-tiktok fs-4"></i></a>
+            <a href="#"><i class="bi bi-discord fs-4"></i></a>
+        </div>
+
+        <p class="section-text mb-0">Copyright © 2026 INFINYX. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- References Modal -->
+<div class="modal fade" id="referencesModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-light rounded-4 border border-info">
+
+            <div class="modal-header border-secondary">
+                <h5 class="modal-title" id="referencesModalLabel">
+                    <i class="bi bi-book-half text-info me-2"></i>
+                    References & Sources
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body p-4">
+
+                <p class="text-secondary mb-4">
+                    The following sources were used for flood-related
+                    information and safety guidance on this website.
+                </p>
+
+                <div class="mb-3">
+                    <h6 class="text-info">1. World Health Organization (WHO)</h6>
+                    <p class="small text-secondary">Flood-related health risks and safety information.</p>
+                    <a href="https://www.who.int/health-topics/floods"
+                       target="_blank" rel="noopener noreferrer" class="text-info">
+                        Visit WHO Website
+                    </a>
+                </div>
+
+                <hr class="border-secondary">
+
+                <div class="mb-3">
+                    <h6 class="text-info">2. UNICEF</h6>
+                    <p class="small text-secondary">Information about disaster preparedness and child safety.</p>
+                    <a href="https://www.unicef.org/" target="_blank"
+                       rel="noopener noreferrer" class="text-info">
+                        Visit UNICEF Website
+                    </a>
+                </div>
+
+                <hr class="border-secondary">
+
+                <div class="mb-3">
+                    <h6 class="text-info">3. UNDRR</h6>
+                    <p class="small text-secondary">Disaster risk reduction and flood risk management.</p>
+                    <a href="https://www.undrr.org/" target="_blank"
+                       rel="noopener noreferrer" class="text-info">
+                        Visit UNDRR Website
+                    </a>
+                </div>
+
+                <hr class="border-secondary">
+
+                <div class="mb-3">
+                    <h6 class="text-info">4. International Federation of Red Cross (IFRC)</h6>
+                    <p class="small text-secondary">Community disaster preparedness and emergency response.</p>
+                    <a href="https://www.ifrc.org/" target="_blank"
+                       rel="noopener noreferrer" class="text-info">
+                        Visit IFRC Website
+                    </a>
+                </div>
+
+                <hr class="border-secondary">
+
+                <div class="mb-3">
+                    <h6 class="text-info">5. Department of Meteorology and Hydrology (Myanmar)</h6>
+                    <p class="small text-secondary">Weather forecasts, flood warnings and meteorological information.</p>
+                    <a href="https://www.moezala.gov.mm/" target="_blank"
+                       rel="noopener noreferrer" class="text-info">
+                        Visit Myanmar DMH Website
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="modal-footer border-secondary">
+                <button type="button" class="btn btn-outline-info rounded-pill px-4"
+                    data-bs-dismiss="modal">
+                    Close
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 800,
+        once: true
+    });
+    document.querySelectorAll('.modal').forEach(modal => {
+        modal.addEventListener('hidden.bs.modal', function () {
+            const iframe = modal.querySelector('iframe');
+
+            if (iframe) {
+                const iframeSrc = iframe.src;
+                iframe.src = '';
+                iframe.src = iframeSrc;
+            }
+        });
+    });
+    
+</script>
+</body>
+</html>

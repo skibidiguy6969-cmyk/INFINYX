@@ -1,0 +1,112 @@
+body { 
+    background-color: #081827; 
+    color: white; 
+}
+
+#navnav {
+    background-color: #0b2032; 
+    border-bottom: 2px solid #43c6ac; 
+}
+
+.navbar-brand:hover {
+    color: #43c6ac; 
+}
+
+#banner {
+    background: linear-gradient(rgba(5,20,35,0.65), rgba(5,20,35,0.8)), url("/Flood_PBL/media/Flooded\ Neighborhood\ Street\ with\ Silver\ Van.png") center; 
+}
+#runnin {
+    width: 100%;
+    height: 310px;
+    object-fit: contain;
+    background-color: #ffffff;
+}
+
+.banner span, .section-title {
+    color: #43c6ac; 
+}
+
+.banner p, .section-text {
+    color: #c5d0d9; 
+}
+
+.banner-desc {
+    max-width: 700px;
+}
+
+.main-btn {
+    background-color: #43c6ac; 
+    color: #081827; 
+    transition: 0.3s; 
+}
+    
+.main-btn:hover {
+    background-color: white; 
+    color: #081827; 
+    transform: translateY(-3px); 
+}
+
+.feature-card {
+    background-color: #10283a; 
+    border: 1px solid #244456; 
+    transition: 0.3s; 
+}
+
+.feature-card:hover {
+    transform: translateY(-5px); 
+    border-color: #43c6ac;
+}
+
+.section-img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    display: block;
+}
+
+#member {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.feature-card {
+    height: 100%;
+}
+
+.feature-card .section-text {
+    flex-grow: 0;
+}
+
+#hihi {
+    height: 350px;
+    object-fit: cover;
+}
+
+.ready-section {
+    background-color: #10283a; 
+    border-top: 2px solid #43c6ac; 
+    border-bottom: 2px solid #43c6ac; 
+}
+
+.link-green {
+    color: #43c6ac;
+}
+
+footer {
+    border-top: 2px solid #43c6ac;
+}
+
+footer a {
+    color: #c5d0d9; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    color: #43c6ac; 
+}
+
+@media (max-width: 767px) {
+    .banner { min-height: 420px; } 
+}
