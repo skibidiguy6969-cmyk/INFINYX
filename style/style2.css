@@ -13,7 +13,7 @@ body {
 }
  
 #prepare {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/media/Storm-Flooded\ Town\ Beneath\ Misty\ Mountains.png") center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../media/Storm-Flooded\ Town\ Beneath\ Misty\ Mountains.png") center;
 }
  
 .banner span, .section-title {
